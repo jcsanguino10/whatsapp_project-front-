@@ -26,7 +26,7 @@ def main():
     current_state = ""
     options= []
     while True:
-        url_msg = "https://gate.whapi.cloud/messages/list/120363224308027086%40g.us?count=2&token=MI_TOKEN"
+        url_msg = "https://gate.whapi.cloud/messages/list/120363224308027086%40g.us?count=2&token=HpEL7Yyro4lGDQBbA1qZR1HnAeLPgcdS"
 
         headers = {"accept": "application/json"}
 
@@ -64,7 +64,7 @@ def main():
 
         responder = response.json().get("messages")[0].get("from") != "573017113430"
         if responder:
-            url = "https://gate.whapi.cloud/messages/text?token=MI_TOKEN"
+            url = "https://gate.whapi.cloud/messages/text?token=HpEL7Yyro4lGDQBbA1qZR1HnAeLPgcdS"
 
             payload = {
                 "typing_time": 2,
