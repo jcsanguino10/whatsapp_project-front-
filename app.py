@@ -62,7 +62,7 @@ def main():
                     response_text += create_answer(options)
                     current_state="Inicio"
 
-        responder = response.json().get("messages")[0].get("from") != "573017113430"
+        responder = response.json().get("messages")[0].get("from") != "573143106090"
         if responder:
             url = "https://gate.whapi.cloud/messages/text?token=HpEL7Yyro4lGDQBbA1qZR1HnAeLPgcdS"
 
